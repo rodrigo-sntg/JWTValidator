@@ -1,0 +1,40 @@
+# Node.js dependencies
+/node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor de código
+.vscode/
+.idea/
+
+# Arquivos de configuração específicos de sistemas
+.env
+
+# Arquivos gerados pela compilação
+/dist/
+/build/
+
+# Arquivos de cobertura de teste (exemplo de ferramenta como Istanbul)
+coverage/
+
+# Arquivos de cache
+/.cache/
+
+# Arquivos específicos do AWS Lambda (se houver)
+.aws-sdk/
+
+# Arquivos de configurações específicas de deploy (como no caso de AWS)
+serverless.yml
+
+# Arquivos de credenciais (é uma boa prática evitar manter esses arquivos no repositório)
+*.pem
+
+
+*.zip
